@@ -9,9 +9,9 @@ from sqlalchemy import sql
 from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
-@app.route("/")
-def index():
-    return render_template('index.html')
+@app.route("/candycrush")
+def candycrush():
+    return render_template('candycrush.html')
 
 def main():
     app.run(port=int(os.environ.get('PORT', 80)))
