@@ -13,6 +13,9 @@ app = Flask(__name__)
 def candycrush():
     return render_template('candycrush.html')
 
+@app.route("/")
+def home():
+    return render_template('index.html')
 def main():
     app.run(port=int(os.environ.get('PORT', 80)))
 
