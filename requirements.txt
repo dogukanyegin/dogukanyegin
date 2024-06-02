@@ -1,0 +1,11 @@
+# Dev environment
+pip
+autopep8
+sqlalchemy
+flask_sqlalchemy
+flask_migrate
+kivy
+qrcode
+# App
+flask
+
